@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Animal App</title>
+  <link rel="stylesheet" href="animal.css" />
+</head>
+<body>
+  <header>
+    <div class="H-header">
+      <h1>Animal App</h1>
+    </div>
+  </header>
+  <main>
+
+
+    <!-- Add Animal Form -->
+     
+    <div class="form">
+      <h2>Add Your Animal</h2>
+      <form id="addForm">
+        <select id="typeSelect">
+          <option value="dogs">Dogs</option>
+          <option value="bigCats">Big Cats</option>
+          <option value="bigFish">Big Fish</option>
+        </select>
+        <input type="text" id="species" placeholder="Species" required />
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="text" id="size" placeholder="Size" required />
+        <input type="text" id="location" placeholder="Location" required />
+        <input type="text" id="file" placeholder="Image URL" required />
+        <button type="submit">Add Data</button>
+      </form>
+    </div>
+
+    <!-- Data Display Section -->
+    <div class="fetchData">
+      <div class="filter">
+        <select id="filterSelect">
+          <option value="">Default</option>
+          <option value="name">Name</option>
+          <option value="location">Location</option>
+          <option value="size">Size</option>
+        </select>
+      </div>
+      <div id="dataDisplay"></div>
+    </div>
+
+    <!-- Edit Form (hidden by default) -->
+    <div class="alert" id="editFormContainer" style="display:none;">
+      <h2>Edit Animal</h2>
+      <form id="editForm">
+        <input type="text" id="editSpecies" placeholder="Species" required />
+        <input type="text" id="editName" placeholder="Name" required />
+        <input type="text" id="editSize" placeholder="Size" required />
+        <input type="text" id="editLocation" placeholder="Location" required />
+        <input type="text" id="editFile" placeholder="Image URL" required />
+        <div class="editbtn">
+          <button type="submit">Save</button>
+          <button type="button" id="cancelEdit">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <script src="animal.js"></script>
+</body>
+</html>
