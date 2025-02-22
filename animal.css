@@ -1,0 +1,200 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: rgba(157, 158, 156, 0.1);
+  }
+  
+  header {
+    border: 2px solid transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(28, 221, 28);
+    border-radius: 0px 0px 10px 10px;
+    height: 130px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .form {
+    border: 2px solid transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 10px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  form {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form input {
+    margin-left: 10px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid rgb(19, 18, 18);
+    font-size: 15px;
+  }
+  
+  .form select {
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 6px;
+  }
+  
+  .form button {
+    display: block;
+    width: 150px;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    font-size: 15px;
+    padding: 7px 10px;
+    text-align: center;
+    background: rgb(22, 173, 22);
+    color: white;
+    border-radius: 6px;
+  }
+  
+  .form button:hover {
+    background: rgb(0, 128, 0);
+  }
+  
+  .fetchData {
+    border: 2px solid transparent;
+    margin: 20px 10px;
+  }
+  
+  .filter select {
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 6px;
+  }
+  
+  .ourData {
+    border: 2px solid transparent;
+    margin: 20px 0px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .ourData h3 {
+    margin-left: 15px;
+  }
+  
+  .box {
+    display: flex;
+    margin: 10px 20px;
+  }
+  
+  .datatype {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 2px solid transparent;
+    background: rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    margin: 4px;
+    padding: 9px;
+  }
+  
+  .datatype img {
+    width: 220px;
+    border-radius: 10px;
+  }
+  
+  .datatype:hover {
+    background: rgba(56, 170, 170, 0.1);
+  }
+  
+  .boxes {
+    margin-left: 16px;
+  }
+  
+  .editForm {
+    display: inline-block;
+  }
+  
+  .editForm button {
+    margin: 5px;
+    padding: 6px 13px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+  }
+  
+  .editForm .first {
+    background: rgb(89, 68, 145);
+  }
+  
+  .editForm .first:hover {
+    background: rgb(77, 66, 107);
+  }
+  
+  .editForm .first:active {
+    background: pink;
+  }
+  
+  .editForm .second {
+    background: rgb(218, 69, 50);
+  }
+  
+  .editForm .second:hover {
+    background: rgb(240, 44, 30);
+  }
+  
+  .alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: rgba(228, 225, 225, 0.9);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border: 0.2px solid;
+    left: 100px;
+    right: 100px;
+    top: 160px;
+    border-radius: 12px;
+  }
+  
+  .alert input {
+    margin: 8px;
+    padding: 6px 11px;
+    border-radius: 6px;
+    border: none;
+  }
+  
+  .alert button {
+    padding: 5px 6px;
+    margin: 20px 0px 0px 8px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: rgb(248, 248, 248);
+  }
+  
+  .alert button:nth-child(1) {
+    background: rgb(36, 223, 19);
+  }
+  
+  .alert button:nth-child(1):hover {
+    background: rgb(30, 175, 17);
+  }
+  
+  .alert button:nth-child(2) {
+    background: rgb(223, 77, 19);
+  }
+  
+  .alert button:nth-child(2):hover {
+    background: rgb(182, 67, 21);
+  }
+  
